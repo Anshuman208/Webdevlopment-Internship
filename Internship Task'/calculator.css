@@ -1,0 +1,62 @@
+body {
+    background-image: url(calculator-with-pen-business-plan-paper.jpg);
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.calculator {
+    text-align: center;
+    width: 300px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(148, 17, 17, 0.1);
+}
+
+.display {
+    padding: 10px;
+    border-bottom: 5px solid #cebaba;
+     font-weight: 600;
+     box-sizing: content-box;
+
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+}
+
+button {
+    padding: 20px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #f07d7d;
+}
+
+footer {
+    background-color:orangered;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}

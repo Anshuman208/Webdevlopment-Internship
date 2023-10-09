@@ -1,0 +1,62 @@
+body {
+    background-image: url(c.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #db1717;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.converter {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+select, input, button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #dc4c4c;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0px -2px 5px 0px rgba(218, 67, 67, 0.2);
+}

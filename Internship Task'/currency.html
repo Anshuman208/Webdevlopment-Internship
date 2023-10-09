@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="currency.css">
+    <title>Currency Converter</title>
+</head>
+
+<body>
+    <header>
+        <h1>Currency Converter</h1>
+    </header>
+
+    <div class="container">
+        <div class="converter">
+            <label for="fromCurrency">From:</label>
+            <select id="fromCurrency">
+                <!-- Options for various currencies go here -->
+            </select>
+            <label for="amount">Amount:</label>
+            <input type="number" id="amount" placeholder="Enter amount">
+            <label for="toCurrency">To:</label>
+            <select id="toCurrency">
+                <!-- Options for various currencies go here -->
+            </select>
+            <button id="convertBtn">Convert</button>
+            <p id="result"></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Anshuman Bajpai. All rights reserved.</p>
+    </footer>
+
+    <script src="currency.js"></script>
+</body>
+
+</html>
